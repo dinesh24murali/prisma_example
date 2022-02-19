@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "jobTitle" VARCHAR(100) NOT NULL DEFAULT E'';
