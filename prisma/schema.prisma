@@ -32,6 +32,7 @@ model Profile {
 model User {
   id      Int      @id @default(autoincrement())
   email   String   @unique
+  salary  Int      @default(0)
   name    String?
   jobTitle String   @db.VarChar(100) @default("")
   posts   Post[]
